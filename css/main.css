@@ -17,11 +17,11 @@ body {
   width: 659px;
   height: 494px;
 }
-.ryu-still, .ryu-ready, .ryu-throwing {
+.ryu-still, .ryu-ready, .ryu-throwing, .ryu-cool {
   width: 659px;
   height: 494px;
 }
-.ryu-ready, .ryu-throwing {
+.ryu-ready, .ryu-throwing, .ryu-cool {
   display: none;
 }
 .ryu-still {
@@ -49,4 +49,7 @@ body {
   top: 167px;
   left: 520px;
   z-index: 10;
+}
+.ryu-cool {
+  background-image: url('../images/ryu-cool.gif');
 }
